@@ -6,6 +6,7 @@ const PopupForm = (props) => (
     <div style={props.isOpen ? {display: ''} : {display: 'none'}} className="popup-box">
         <span className="close-icon" onClick={() => props.togglePopup()}>x</span>
 
+        {page === 1 ? }
         <div className="form-popup" id="myForm" >
         <form onSubmit={(e) => {
           e.preventDefault();
